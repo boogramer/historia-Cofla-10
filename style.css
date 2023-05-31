@@ -1,6 +1,17 @@
+
+body{
+    background: #D9D2B6;
+}
 .formulario-notas{
+    background: #B7B7B7;
+    width: 50%;
+    border: 8px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(to left, #333333,#48E5C2,#FCFAF9,#F3D3BD,#5E5E5E);
+    border-image-slice: 1;
+    padding: 20px;
     display: grid;
-    margin-top: 150px;
+    margin: 150px auto;
     grid-template-columns: 300px 35px;
     grid-template-rows: 65px 30px;
     justify-content: center;
@@ -8,13 +19,20 @@
 }
 .formularios-notas__h2{
     vertical-align: middle;
-    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2rem;
+    background: rgba(209, 160, 208, 0.68);
+    border: 4px solid;
+    border-radius: 3px;
+    border-image: linear-gradient(to left, #F2F6D0,#D0E1D4,#D9D2B6,#E4BE9E,#71697A);
+    border-image-slice: 1;
 }
 .formulario-notas__input{
     text-align: center;
 }
 
-#nota-alumno{
+#-alumno{
     
 }
 #enviar-nota{

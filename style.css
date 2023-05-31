@@ -1,0 +1,32 @@
+.formulario-notas{
+    display: grid;
+    margin-top: 150px;
+    grid-template-columns: 300px 35px;
+    grid-template-rows: 65px 30px;
+    justify-content: center;
+    align-items: center;
+}
+.formularios-notas__h2{
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+.formulario-notas__input{
+    text-align: center;
+}
+
+#nota-alumno{
+    
+}
+#enviar-nota{
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px auto;
+    width: 70px;
+    padding: 10px;
+    transition: transform .3s linear;
+}
+
+#enviar-nota:hover{
+    transform: scale(1.1);
+}
